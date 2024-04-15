@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vida Church</title>
+
+    <!--Icono-->
+    <link rel="icon" href="Sources/icono.png">
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" zcrossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!--Font awesome iconos-->
+    <script src="https://kit.fontawesome.com/0b89979ee1.js" crossorigin="anonymous"></script>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="Index.html" class="logo"><img src="Sources/Logo.jpg"></a>
+            
+                <input type="checkbox" id="menu">
+                <label for="menu">
+                    <i class="fa-solid fa-bars" class="menu-icono"></i>
+                </label>
+
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="index.html" class="resalt">INICIO</a></li>
+                        <li><a href="Grupos pequeños/index.html">GRUPOS PEQUEÑOS</a></li>
+                        <li><a href="https://www.facebook.com/vidachurchrio"><i class="fa-brands fa-facebook"></i></i></a></li>
+                        <li><a href="https://www.instagram.com/vidachurchrio?igsh=MWFscWp5eGVocWhweg=="><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </nav>
+        </div>
+        <div class="header-contend container">
+            <h1>VIDA CHURCH</h1>
+            <h2>#somos<span class="auto-type"></span></h2>
+            <a href="#section-1" class="btn"><i class="fa-solid fa-caret-down"></i></a>
+        </div>
+    </header>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["vida", "familia", "iglesia"],
+            typeSpeed: 400,
+            backSpeed: 30,
+            loop: true
+        })
+    </script>
+
+    <!--  ::::Seccion 1::::-->
+    <main id="section-1" class="section-b">
+
+        <section class="presentacion container-m">
+            <h2 class="subtitle">. . ."Asi que la fe es por el oir, y el oir,</h2>
+            <h2 class="subtitle">por la palabra de Dios."</h2>
+            <h3 class="subtitle-b">Romanos 10:17</h3>
+            <span class="linea-1"></span>
+            <p class="text-1"><span>Somos una iglesia cristiana</span> que se dedica a la edificacion de la familia y a la edificacion de la iglesia.</p>
+            <p class="text-2">Ven como eres .... #SomosVida</p>
+        </section>
+    </main>
+
+    <main class="section-c">
+
+        <section class="about container-m">
+            <div class="about-texts">
+                <h2 class="subtitle-a">Domingos Vida</h2>
+                <p class="about-paragraph"><span>Te invitamos</span> a nuestro servicios en en nuestra iglesia.</p>
+                <a class="btn-1">Domingos 12:45PM</a>
+            </div>
+            <figure class="about-img">
+                <img src="Sources/Domingos Vida.jpg" alt="Imagen Domingos Vida" class="about-picture">
+            </figure>
+
+            <figure class="about-img about-img--left">
+                <img src="Sources/Generosidad.jpg" alt="Imagen-Generosidad" class="about-picture">
+            </figure>
+            <div class="about-texts">
+                <h2 class="subtitle-a">Un poco de lo que hacemos...</h2>
+                <p class="about-paragraph"><span>La generosidad</span> es parte de la cultura de Vida Church.</p>
+            </div>
+            
+            <div class="about-texts">
+                <h2 class="subtitle-a">Grupos de Conexión</h2>
+                <p class="about-paragraph">Te invitamos a formar parte de nuestros  <span>Grupos Pequeños.</span></p>
+                <a href="Grupos pequeños/index.html" class="btn-1 btn-a">Mas información...</a>
+            </div>
+            <figure class="about-img">
+                <img src="Sources/Grupos Vida.jpg" alt="Imagen Grupos de Conexion" class="about-picture">
+            </figure>
+        </section>
+
+
+    </main>
+
+    <!--::::Galeria de imagenes::::-->
+    <div class="galeria-container">
+        <h2>Esto es Vida Church</h2>
+        <span class="linea"></span>
+        <section class="galeria">
+            <a href="#image1"><img src="Sources/1.jpg" alt="imagen 1"></a>
+            <a href="#image2"><img src="Sources/2.jpg" alt="imagen 2"></a>
+            <a href="#image3"><img src="Sources/3.jpg" alt="imagen 3"></a>
+            <a href="#image4"><img src="Sources/4.jpeg" alt="imagen 4"></a>
+            <a href="#image5"><img src="Sources/5.jpg" alt="imagen 5"></a>
+            <a href="#image6"><img src="Sources/6.jpg" alt="imagen 6"></a>
+            <a href="#image7"><img src="Sources/7.jpg" alt="imagen 7"></a>
+            <a href="#image8"><img src="Sources/8.jpg" alt="imagen 8"></a>
+            <a href="#image9"><img src="Sources/9.jpg" alt="imagen 9"></a>
+        </section>
+    </div>
+
+    <article class="light-box" id="image1">
+        <a href="#image9" class="next"><i class="fa-solid fa-circle-chevron-left"></i></a>
+        <img src="Sources/1.jpg">
+        <a href="#image2" class="next"><i class="fa-solid fa-circle-chevron-right"></i></a>
+        <a href="" class="close"><i class="fa-solid fa-circle-xmark"></i></a>
+    </article>
+
+    <article class="light-box" id="image2">
+        <a href="#image1" class="next"><i class="fa-solid fa-circle-chevron-left"></i></a>
+        <img src="Sources/2.jpg">
+        <a href="#image3" class="next"><i class="fa-solid fa-circle-chevron-right"></i></a>
+        <a href="" class="close"><i class="fa-solid fa-circle-xmark"></i></a>
+    </article>
+
+    <article class="light-box" id="image3">
+        <a href="#image2" class="next"><i class="fa-solid fa-circle-chevron-left"></i></a>
+        <img src="Sources/3.jpg">
+        <a href="#image4" class="next"><i class="fa-solid fa-circle-chevron-right"></i></a>
+        <a href="" class="close"><i class="fa-solid fa-circle-xmark"></i></a>
+    </article>
+
+    <article class="light-box" id="image4">
+        <a href="#image3" class="next"><i class="fa-solid fa-circle-chevron-left"></i></a>
+        <img src="Sources/4.jpeg">
+        <a href="#image5" class="next"><i class="fa-solid fa-circle-chevron-right"></i></a>
+        <a href="" class="close"><i class="fa-solid fa-circle-xmark"></i></a>
+    </article>
+
+    <article class="light-box" id="image5">
+        <a href="#image4" class="next"><i class="fa-solid fa-circle-chevron-left"></i></a>
+        <img src="Sources/5.jpg">
+        <a href="#image6" class="next"><i class="fa-solid fa-circle-chevron-right"></i></a>
+        <a href="" class="close"><i class="fa-solid fa-circle-xmark"></i></a>
+    </article>
+
+    <article class="light-box" id="image6">
+        <a href="#image5" class="next"><i class="fa-solid fa-circle-chevron-left"></i></a>
+        <img src="Sources/6.jpg">
+        <a href="#image7" class="next"><i class="fa-solid fa-circle-chevron-right"></i></a>
+        <a href="" class="close"><i class="fa-solid fa-circle-xmark"></i></a>
+    </article>
+
+    <article class="light-box" id="image7">
+        <a href="#image6" class="next"><i class="fa-solid fa-circle-chevron-left"></i></a>
+        <img src="Sources/7.jpg">
+        <a href="#image8" class="next"><i class="fa-solid fa-circle-chevron-right"></i></a>
+        <a href="" class="close"><i class="fa-solid fa-circle-xmark"></i></a>
+    </article>
+
+    <article class="light-box" id="image8">
+        <a href="#image7" class="next"><i class="fa-solid fa-circle-chevron-left"></i></a>
+        <img src="Sources/8.jpg">
+        <a href="#image9" class="next"><i class="fa-solid fa-circle-chevron-right"></i></a>
+        <a href="" class="close"><i class="fa-solid fa-circle-xmark"></i></a>
+    </article>
+
+    <article class="light-box" id="image9">
+        <a href="#image8" class="next"><i class="fa-solid fa-circle-chevron-left"></i></a>
+        <img src="Sources/9.jpg">
+        <a href="#image1" class="next"><i class="fa-solid fa-circle-chevron-right"></i></a>
+        <a href="" class="close"><i class="fa-solid fa-circle-xmark"></i></a>
+    </article>
+
+
+
+    <!--  ::::Pie de pagina::::  -->
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="Sources/Logo.jpg" alt="Logo de vida church">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>Ubicación</h2>
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Ave. Constitución #401 Col. Centro , Río Bravo, Mexico</p>
+                <h2>Email</h2>
+                <i class="fa-solid fa-envelope"></i>
+                <p>somosvida.riobravo@gmail.com</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/vidachurchrio" class="color-f">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/vidachurchrio?igsh=MWFscWp5eGVocWhweg==" class="color-i">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2024 <b>Vida Church</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+</body>
+</html>
